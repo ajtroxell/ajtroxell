@@ -1,0 +1,110 @@
+html {
+  font-size: 18px;
+}
+
+address + *,
+blockquote + *,
+dl + *,
+figure + *,
+ol + *,
+p + *,
+pre + *,
+table + *,
+ul + * {
+  margin-top: 1rem;
+}
+
+address + h2,
+blockquote + h2,
+dl + h2,
+figure + h2,
+ol + h2,
+p + h2,
+pre + h2,
+table + h2,
+ul + h2 {
+  margin-top: 2rem;
+}
+
+//Tabs
+.tab-content[data-arx-type='layer'] {
+  position: relative;
+  margin-bottom: 15PX;
+  background: repeating-linear-gradient(to right,rgba(0,88,251,0.04),rgba(0,88,251,0.04) calc((100% / var(--arx-grid-columns)) - var(--arx-grid-gutter)),transparent calc((100% / var(--arx-grid-columns)) - var(--arx-grid-gutter)),transparent calc(100% / var(--arx-grid-columns)));
+  outline: 2PX dashed rgba(0,88,251,0.2);
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: 2PX;
+    font-size: 12PX;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgba(0,88,251,0.04);
+    border: 1px dashed rgba(0,88,251,0.2);
+    border-top: 0;
+    border-right: 0;
+    content: 'Tab';
+  }
+}
+
+//Accordions
+.accordion[data-arx-type='layer'] {
+  position: relative;
+  margin-bottom: 15PX;
+  background: repeating-linear-gradient(to right,rgba(0,88,251,0.04),rgba(0,88,251,0.04) calc((100% / var(--arx-grid-columns)) - var(--arx-grid-gutter)),transparent calc((100% / var(--arx-grid-columns)) - var(--arx-grid-gutter)),transparent calc(100% / var(--arx-grid-columns)));
+  outline: 2PX dashed rgba(0,88,251,0.2);
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: 2PX;
+    font-size: 12PX;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgba(0,88,251,0.04);
+    border: 1px dashed rgba(0,88,251,0.2);
+    border-top: 0;
+    border-right: 0;
+    content: 'Accordion';
+  }
+}
+
+//Modals
+.modal[data-arx-type='layer'] {
+  position: relative;
+  top: auto;
+  left: auto;
+  z-index: 50;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  margin-bottom: 15PX;
+  background: repeating-linear-gradient(to right,rgba(0,88,251,0.04),rgba(0,88,251,0.04) calc((100% / var(--arx-grid-columns)) - var(--arx-grid-gutter)),transparent calc((100% / var(--arx-grid-columns)) - var(--arx-grid-gutter)),transparent calc(100% / var(--arx-grid-columns)));
+  outline: 2PX dashed rgba(0,88,251,0.2);
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: 2PX;
+    font-size: 12PX;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgba(0,88,251,0.04);
+    border: 1px dashed rgba(0,88,251,0.2);
+    border-top: 0;
+    border-right: 0;
+    content: 'Modal';
+  }
+}
+

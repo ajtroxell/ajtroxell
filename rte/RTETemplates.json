@@ -1,0 +1,21 @@
+{
+  "redspan": {
+    title: '<span style="color: #fff; background: #ff3265; padding: 2px 8px; border-radius: 3px;">Redmark</span>',
+    params: {
+        tag: 'span',
+        attr: {
+            'class': 'redspan'
+      }
+    }
+  },
+  "boldmark": {
+    title: '<b style="color: #ff3265;">Boldmark</b>',
+    params: {
+        tag: 'b',
+        attr: {
+            'class': 'boldmark',
+            'data-type': 'my-mark'
+      }
+    }
+  }
+}

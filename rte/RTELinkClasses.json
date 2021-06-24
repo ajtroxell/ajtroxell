@@ -1,0 +1,10 @@
+﻿{
+  primary: {
+    title: 'Primary Link Button',
+      params: { classname: 'btn btn-primary' }
+  },
+  secondary: {
+    title: 'Secondary Link Button',
+      params: { classname: 'btn btn-secondary' }
+  }
+}

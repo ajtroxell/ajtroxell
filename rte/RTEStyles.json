@@ -1,0 +1,34 @@
+{
+  "image": {
+    "float-left": {
+      "title": "Float Left",
+      "classname": "float-left"
+    },
+    "float-right": {
+      "title": "Float Right",
+      "classname": "float-right"
+    },
+    "retina-image": {
+      "title": "Retina Image",
+      "classname": "retina"
+    },
+    "zoom-img": {
+      "title": "Zoom Image",
+      "classname": "zoom-img"
+    },
+    "zoom-gal": {
+      "title": "Gallery Image",
+      "classname": "zoom-gal"
+    }
+  },
+  "list": {
+    "table-list": {
+      "title": "Table List",
+      "classname": "table-list"
+    },
+    "no-bullet-list": {
+      "title": "Unbulleted",
+      "classname": "no-bullet"
+    }
+  }
+}
